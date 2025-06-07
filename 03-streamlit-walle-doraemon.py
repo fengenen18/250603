@@ -13,8 +13,7 @@ import pathlib
 # @st.cache_resource
 def load_model():
 
-     st
-.info("正在加载模型...")
+     st.info("正在加载模型...")
     
     try:
         # 调试：显示当前工作目录和文件路径
